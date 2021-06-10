@@ -1,2 +1,2 @@
 # environmental configuration variables
-.env*
+.env.local

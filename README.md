@@ -3,6 +3,7 @@ This repository create a reverse proxy with nginx that has two virtual servers.
 
 # Pre-check
 The information of servers (like name and ip) are stored in **.env** file.  
+Duplicate this file and rename it as **.env.local** with your custom info.
 There is also a variable for the image tag.
 These data will be used in docker build image.
 
