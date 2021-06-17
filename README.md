@@ -14,3 +14,7 @@ Run the container with:
 ```
 $ docker run --rm -p 443:443 --name=nginx-reverse-proxy nginx-reverse-proxy:latest
 ```
+
+# Docker file script
+To make all the procedure more easy, there is a file named **docker-build-run.sh**.  
+This file build the docker image for the reverse proxy using env files and run the container.

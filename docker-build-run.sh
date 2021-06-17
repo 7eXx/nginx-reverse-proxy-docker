@@ -10,3 +10,8 @@ docker build . \
     --build-arg DESTINATION_2=${DESTINATION_2} \
     --tag ${IMAGE_TAG} \
     --file Dockerfile
+
+docker run -d --rm \
+    -p 443:443 \
+    --name=${CONTAINER_NAME} \
+    ${IMAGE_TAG}
